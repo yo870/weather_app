@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 14px !important;
+}
+
+body {
+	background: url(../img/welcome.jpg);
+	background-size: cover !important;
+    background-position: center !important;
+	background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+h1 {
+  font-weight:bold; 
+  font-size: 5em;
+  padding-top: 2%;
+  }
+
+.wrapper {
+	padding-top: 2%;
+	text-align:center;
+	}
+
+h2 {
+	font-size: 4em;
+	font-weight:bold; 
+	padding-top: 2%;
+}
+
+#wicon {
+	height:100px; 
+	width: 100px;
+	display: none;
+}
+
+h3 {
+	font-size: 3em;
+	padding-top: 1%;
+}
+
+h4 {
+	font-size: 2em;
+	padding-top: 1%;
+	margin-bottom: 3%;
+} 
+
+.humpress > h5 {
+	display: inline !important;
+ }
+ 
+h5 {
+	font-size: 1.5em;
+	padding-left: 1%;
+} 
+ 
+.buttongroup {
+	padding-top: 5%;
+	}
+.btn {
+	margin-top: 2%;
+    white-space: normal !important;
+	font-weight:bold; 
+	}	
+
+ 
+footer {
+ 	width: 80%;
+	border-top: solid grey 1px;
+ 	margin: 5% auto 2% auto;
+	text-align: center;
+	}
+
+footer p a {
+	text-decoration: none !important;
+	color: rgb(51, 51, 51);
+	font-weight: bold !important; 
+}
+
+footer p {
+ 	text-align: center;
+	font-size: 12px
+ 	}
+
+  
+ @media only screen and (max-width: 667px) {
+    html, body {
+        font-size: 10px !important;
+    }
+	h1 {
+		font-size: 4.5em;
+	}
+	h2 {
+		font-size: 3.5em;
+	}
+
+  
